@@ -8,6 +8,11 @@
   <p>Developed by <a href="https://wavebound.io">Wavebound, LLC</a></p>
 </div>
 
+<img width="2056" alt="weaver-controls-1" src="https://github.com/user-attachments/assets/43b5d0ea-c38c-4294-acbf-ffe66884d6c1" />
+
+<img width="2056" alt="weaver-controls-2" src="https://github.com/user-attachments/assets/a44e6720-cbe7-4d52-8bb0-a496f22320de" />
+
+
 ## Overview
 
 Weaver is a powerful web-based visualization tool designed to help users understand and explore RDF (Resource Description Framework) and Turtle ontology files through an interactive and intuitive interface. Built with modern web technologies, Weaver makes it easy to upload, analyze, and visualize complex ontological relationships.
