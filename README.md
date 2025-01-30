@@ -1,3 +1,5 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 # Weaver
 
 A modern, interactive visualization tool for RDF (Resource Description Framework) and Turtle ontology files.
