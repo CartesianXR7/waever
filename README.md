@@ -10,24 +10,29 @@
 
   
 <img width="2056" alt="weaver-controls-1" src="https://github.com/user-attachments/assets/43b5d0ea-c38c-4294-acbf-ffe66884d6c1" />
+
 ^^^
+
 SCREENSHOT 1 - weaver visualization interface comes with...
--> (Top Right) File upload box where a user can upload either .rdf or .ttl files from a local machine
--> (Center Right) Follapsable control panel that includes:
-+ Collision Force, Force Strength, and Link Distance
-+ Node Color Pickers and Manual Hex Inputs
-+ PNG & PDF screen capture exports (this grabs JUST the graph visualization)
--> (Bottom Right) Mannual Zoom buttons (may also use mouse or trackpad to Zoom in and out)
--> (Bottom Left) Dynamic Graph Legend to color categorize the available nodes in the uploaded file
--> (Top Left) Node Details Pop Up - This gives more information about a selected node on the spider graph
--> (Top Center) Collapsable Node Search Function
--> Full screen interactive animated graphing visualization
--> Node Mouseover Tooltips that give high level details of a node
+[X] (Top Right) File upload box where a user can upload either .rdf or .ttl files from a local machine
+[X] (Center Right) Follapsable control panel that includes:
+++ Collision Force, Force Strength, and Link Distance
+++ Node Color Pickers and Manual Hex Inputs
+++ PNG & PDF screen capture exports (this grabs JUST the graph visualization)
+[X] (Bottom Right) Mannual Zoom buttons (may also use mouse or trackpad to Zoom in and out)
+[X] (Bottom Left) Dynamic Graph Legend to color categorize the available nodes in the uploaded file
+[X] (Top Left) Node Details Pop Up - This gives more information about a selected node on the spider graph
+[X] (Top Center) Collapsable Node Search Function
+[X] Full screen interactive animated graphing visualization
+[X] Node Mouseover Tooltips that give high level details of a node
 
 
 <img width="2056" alt="weaver-controls-2" src="https://github.com/user-attachments/assets/a44e6720-cbe7-4d52-8bb0-a496f22320de" />
+
 ^^^
-SCREENSHOT 2 - (Top Center) Expanded Node Search (uses fuzzy searching for better results)
+
+SCREENSHOT 2 (Top Center) 
+[X]Expanded Node Search (uses fuzzy searching for better results)
 
 ## Overview
 
