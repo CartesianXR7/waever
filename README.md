@@ -1,26 +1,53 @@
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
 # Weaver
 
-A modern, interactive visualization tool for RDF (Resource Description Framework) and Turtle ontology files.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+<div align="center">
+  <img src="/public/w-icon.svg" alt="Weaver Logo" width="120"/>
+  <p><strong>A modern, interactive visualization tool for RDF and Turtle ontologies</strong></p>
+  <p>Developed by <a href="https://wavebound.io">Wavebound, LLC</a></p>
+</div>
+
+## Overview
+
+Weaver is a powerful web-based visualization tool designed to help users understand and explore RDF (Resource Description Framework) and Turtle ontology files through an interactive and intuitive interface. Built with modern web technologies, Weaver makes it easy to upload, analyze, and visualize complex ontological relationships.
 
 ## Features
 
+### Core Functionality
+- Direct file upload support for RDF/XML (.rdf, .owl) and Turtle (.ttl) formats
 - Interactive force-directed graph visualization
-- Support for RDF/XML and Turtle file formats
 - Dynamic node filtering by type
-- Customizable force simulation parameters
-- Search functionality with fuzzy matching
-- Zoom and pan controls
-- Export options (PNG, PDF)
-- Custom color schemes for different node types
-- Detailed node information display
+- Real-time graph manipulation
 
-## Installation
+### Visualization Controls
+- Customizable force simulation parameters
+- Zoom and pan controls
+- Node collision and link distance adjustments
+- Custom color schemes for different node types
+
+### Search & Analysis
+- Fuzzy search functionality across all node properties
+- Detailed node information display
+- Connected node highlighting
+- Type-based filtering
+
+### Export Options
+- High-quality PNG export
+- PDF export functionality
+- Configurable export settings
+
+## Getting Started
+
+### Prerequisites
+- Node.js (v16 or higher)
+- npm or yarn
+
+### Installation
 
 ```bash
 # Clone the repository
-git clone https://github.com/[your-username]/weaver.git
+git clone https://github.com/wavebound/weaver.git
 
 # Navigate to project directory
 cd weaver
@@ -32,20 +59,22 @@ npm install
 npm run dev
 ```
 
-## Usage
+### Basic Usage
 
 1. Launch the application
-2. Click the file upload button
-3. Select an RDF (.rdf, .owl) or Turtle (.ttl) file
-4. Click "Visualize" to generate the graph
+2. Use the file upload button to select your RDF or Turtle file
+3. Click "Visualize" to generate the interactive graph
+4. Use the control panel to adjust visualization parameters
+5. Export or share your visualization as needed
 
-## Tech Stack
+## Technology Stack
 
-- React
-- D3.js for visualization
-- N3.js for RDF parsing
-- Tailwind CSS for styling
-- Vite for build tooling
+- **Frontend Framework**: React
+- **Visualization**: D3.js
+- **RDF Parsing**: N3.js
+- **Styling**: Tailwind CSS
+- **Build Tool**: Vite
+- **Search**: Fuse.js
 
 ## Development
 
@@ -58,12 +87,40 @@ npm run build
 
 # Preview production build
 npm run preview
+
+# Run linter
+npm run lint
 ```
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details on how to submit pull requests, report issues, and contribute to the project.
+
+## Commercial Support
+
+While Weaver is open-source under the MIT License, Wavebound, LLC offers several commercial services:
+
+- Enterprise Support
+- Custom Development
+- Hosted Solutions
+- Training & Implementation
+- Integration Services
+
+For commercial inquiries, please contact: support@wavebound.io
+
+## License
+
+Copyright (c) 2024 Wavebound, LLC. This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- D3.js community for their excellent visualization library
+- N3.js team for their RDF parsing capabilities
+- Our open source contributors
+
+---
+
+<div align="center">
+  <p>Made with ❤️ by <a href="https://wavebound.io">Wavebound, LLC</a></p>
+  <p>© 2024 Wavebound, LLC. All rights reserved.</p>
+</div>
